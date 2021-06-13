@@ -1,0 +1,17 @@
+{
+    "name": "WhatsappSearch",
+    "description": "Google Chrome extension to open a number in whatsapp web",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": { "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" },
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "content.js"
+    }
+}
